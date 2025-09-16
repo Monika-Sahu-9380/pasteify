@@ -4,7 +4,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/Monika-Sahu-9380/pasteify?style=social)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-*Pasteify* is a **lightweight** and **modern** web application built with **React** and **TailwindCSS** that helps you quickly **create, manage, and share text snippets (pastes)**. It's designed for simplicity, avoiding the clutter of traditional note-taking tools while providing essential features for organizing and accessing your quick notes.
+*Pasteify* is a **lightweight** and **modern** web application built with **React** and **TailwindCSS** that helps you quickly **create, manage, and share text snippets (pastes)**. It's designed for simplicity, avoiding the clutter of traditional note-taking tools while providing essential features for organizing and accessing your quick pastes.
 
 ---
 
@@ -39,7 +39,7 @@
 - 📝 **Create and Save** – Add new text snippets with title and content  
 - ✏️ **Edit and Update** – Modify existing pastes  
 - 🗑️ **Delete Pastes** – Remove unwanted pastes  
-- 📋 **Copy to Clipboard** – Copy paste content instantly  
+- 📋 **Copy to Clipboard Instantly** – Copy paste content to clipboard
 - 🔎 **Search and Filter** – Quickly find pastes by title  
 - 💾 **Local Storage** – Automatic persistence in browser  
 - 📱 **Responsive Design** – Clean UI with Tailwind CSS  
@@ -151,6 +151,15 @@ Pasteify is a React project built to explore and practice:
   - 🎨 Tailwind CSS for styling  
   - 🔔 React Hot Toast for notifications  
   - 🔗 Lucide icons for UI  
+
+---
+
+## ✨ Implementation Highlights
+  - 🔄 Centralized State with Redux Toolkit – Clean slice structure and actions for CRUD operations.
+  - 📋 Debounced Search – Optimized snippet search to prevent unnecessary re-renders.
+  - ⚠️ Edge Case Handling – Prevents duplicate titles, empty inputs, and invalid snippet IDs.
+  - 📱 Responsive UI – Built with TailwindCSS utilities to adapt across screen sizes.
+
 
 ---
 
