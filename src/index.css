@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial;
+  color: #213547;
+  background-color: rgba(255, 255, 255, 0.87);
+}
+
+html {
+  scrollbar-gutter: stable; /*This tells the browser to keep space for the scrollbar even if it’s not visible.*/
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* The scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background: #8fb2fd;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6997fa;
+}
